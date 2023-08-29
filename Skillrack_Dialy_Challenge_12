@@ -1,0 +1,58 @@
+# *******Skillrack_Dialy_Challenge_12*******
+
+#Program Facot Count.
+
+#Question:
+
+FIB - Factor Count The program must print the count of the factors of a given integer N. 
+Please fill in the code in the blanks so that the program executes successfully.
+
+Example Input/Output 1: 
+
+Input: 
+
+4
+
+Output:
+
+3
+
+Example Input/Output 2:
+
+Input: 
+
+100
+
+Output: 
+
+9
+
+#Answer:
+
+#include<stdio.h>
+
+int main()
+
+{
+
+int N,factorCount=1;
+
+scanf("%d",&N);
+
+for(int ctr=1;ctr<=N/2;ctr++){
+
+if(N%ctr==0){
+
+++factorCount;
+
+}
+
+}
+
+printf("%d",factorCount);
+
+return 0;
+
+}
+
+#Skillrack_Dialy_Challenge_12
